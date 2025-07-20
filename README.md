@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+The Calculators
+A clean and minimal calculator web app built with a modern tech stack.
 
-## Project info
+🔗 Live Deployment: https://thecalculators.vercel.app/
 
-**URL**: https://lovable.dev/projects/b75bb452-c92c-4f1a-88ce-4a54ea79ccc5
+🛠 Project Info
+A lightweight, responsive calculator application designed for fast and intuitive usage. Built using React, TypeScript, and Tailwind CSS, it offers a seamless and aesthetic user experience for performing basic arithmetic operations.
 
-## How can I edit this code?
+💻 Getting Started
+You can edit or enhance the codebase using any of the following methods:
 
-There are several ways of editing your application.
+Option 1: Clone & Run Locally
+Make sure you have Node.js and npm installed. You can use nvm to manage versions easily.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/b75bb452-c92c-4f1a-88ce-4a54ea79ccc5) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+bash
+Copy
+Edit
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install all dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
+Option 2: Edit via GitHub
+Open any file in the repository.
 
-**Edit a file directly in GitHub**
+Click the ✏️ "Edit" icon in the top right.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make your changes and commit them directly from the GitHub UI.
 
-**Use GitHub Codespaces**
+Option 3: Use GitHub Codespaces
+If you prefer working in a cloud IDE:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Go to the repository’s main page.
 
-## What technologies are used for this project?
+Click the green Code button > Codespaces tab.
 
-This project is built with:
+Select New codespace.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Edit and run the app directly within the browser.
 
-## How can I deploy this project?
+🚀 Deployment
+The project is already live on Vercel, and you can deploy changes in minutes:
 
-Simply open [Lovable](https://lovable.dev/projects/b75bb452-c92c-4f1a-88ce-4a54ea79ccc5) and click on Share -> Publish.
+To deploy manually:
 
-## Can I connect a custom domain to my Lovable project?
+Push changes to the main branch.
 
-Yes, you can!
+Vercel will automatically trigger a new deployment.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+To use a custom domain:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Go to your Vercel dashboard.
+
+Navigate to your project → Settings → Domains.
+
+Connect your custom domain and update DNS records accordingly.
+
+🧰 Tech Stack
+This project is built using:
+
+React
+
+TypeScript
+
+Vite
+
+shadcn/ui
+
+Tailwind CSS
+
+📄 License
+This project is open-source and available under the MIT License.
